@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="App">
       <IconContext.Provider
-        value={{ color: 'red', className: 'global-icons-name' }}
+        value={{ color: 'white', className: 'global-icons' }}
       >
         <Home />
       </IconContext.Provider>
