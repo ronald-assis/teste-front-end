@@ -1,0 +1,23 @@
+.products-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 37px;
+  background-color: tomato;
+
+  img {
+    width: 100%;
+
+    &:nth-child(1) {
+      height: 504px;
+    }
+    &:nth-child(2) {
+      height: 190px;
+    }
+    &:nth-child(3){
+      height: 386px;
+    }
+  }
+
+}
