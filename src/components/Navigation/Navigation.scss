@@ -1,0 +1,17 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  padding: 14px 0 0 140px;
+  font-weight: bold;
+  font-size: 10px;
+
+  div {
+    display: flex;
+    align-items: center;
+    margin-right: 77px;
+  }
+
+  .contact {
+    margin: 0;
+  }
+}
