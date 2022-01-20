@@ -32,6 +32,11 @@
       margin-left: 27px;
     }
 
+    input:focus {
+      box-shadow: 0 0 0 0;
+      outline: 0;
+    }
+
     .global-icons {
       width: 18px;
       height: 18px;
