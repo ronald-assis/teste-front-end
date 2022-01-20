@@ -1,0 +1,21 @@
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 80%;
+  margin: auto;
+
+  button {
+    &:nth-child(1n) {
+      background-color: white;
+      text-align: center;
+      padding: 20px;
+      border: 1px solid var(--main-color);
+      border-radius: 5px;
+      width: 154px;
+      height: 52px;
+      cursor: pointer;
+    }
+  }
+}

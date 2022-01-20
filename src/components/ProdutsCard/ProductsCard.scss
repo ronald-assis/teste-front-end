@@ -1,0 +1,29 @@
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  flex: 1 0 25%;
+  margin-bottom: 62px;
+  transition: 300ms ease-in-out;
+  height: 350px;
+  position: relative;
+  
+  &:hover {
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.37);
+    border-radius: 4px;
+
+    img {
+      transition: 300ms ease-in-out;
+      transform: scale(1.1);
+      position: relative;
+      bottom: 30px;
+    }
+  
+    &::after {
+    content: 'Quick view';
+    position: absolute;
+    top: 185px;
+    }
+  }
+}
