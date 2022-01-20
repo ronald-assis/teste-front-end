@@ -1,0 +1,31 @@
+.benefits {
+  background-color: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 38px;
+  
+  
+  div {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid white;
+    // background-color: tomato;
+    width: 50%;
+      
+    .global-icons {
+      margin-right: 18px;
+      width: 16.83px;
+      height: 13.16px;
+    }
+  }
+  
+  .free {
+    border: none;
+  }
+  
+}

@@ -5,9 +5,7 @@ import './Global.scss';
 const App = () => {
   return (
     <div className="App">
-      <IconContext.Provider
-        value={{ color: 'red', className: 'global-icons-name' }}
-      >
+      <IconContext.Provider value={{ className: 'global-icons' }}>
         <Home />
       </IconContext.Provider>
     </div>
