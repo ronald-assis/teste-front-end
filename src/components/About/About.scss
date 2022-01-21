@@ -1,0 +1,59 @@
+.about {
+  margin-top: 100px;
+  .info {
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    margin-bottom: 19px;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .info-brands {
+    color: #A5A5A5;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    margin-bottom: 95px;
+  }
+
+  .brands {
+    width: 80%;
+    margin: 0 auto 85px;
+  }
+
+  .arrows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto 16px;
+    cursor: pointer;
+
+    .global-icons {
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  .about-details {
+    width: 80%;
+    margin: auto;
+
+    h1 {
+      font-weight: bold;
+      font-size: 26px;
+      margin-bottom: 33px;
+    }
+
+    .text {
+      color: var(--black-color);
+      width: 90%;
+      margin: auto;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 19px;
+      text-align: center;
+    }
+  }
+}

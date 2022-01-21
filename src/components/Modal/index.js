@@ -8,7 +8,7 @@ const Modal = ({ item, setModal }) => {
 
   return (
     <section className="modal">
-      <article className="modal-details">
+      <div className="modal-details">
         <button onClick={handleClick}>
           <IoIosClose className="close" />
         </button>
@@ -27,7 +27,7 @@ const Modal = ({ item, setModal }) => {
             <button>Adicionart ao carrinho</button>
           </div>
         </div>
-      </article>
+      </div>
     </section>
   );
 };

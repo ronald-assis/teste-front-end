@@ -3,7 +3,7 @@ import './FeaturedInstrument.scss';
 
 const FeaturedInstrument = () => {
   return (
-    <article className="featured-instrument">
+    <section className="featured-instrument">
       <h1>
         INSTRUMENTOS <span>DESTAQUE</span>
       </h1>
@@ -12,7 +12,7 @@ const FeaturedInstrument = () => {
         readable
       </p>
       <Products />
-    </article>
+    </section>
   );
 };
 

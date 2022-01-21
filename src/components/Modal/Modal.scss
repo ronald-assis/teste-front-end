@@ -11,8 +11,6 @@
 
   .modal-details {
     background-color: white;
-    display: flex;
-    align-items: center;
     justify-content: unset;
     margin-top: 10%;
     flex-flow: column;
@@ -49,7 +47,7 @@
       }
     }
   }
-
+  
   div {
     display: flex;
     align-items: center;
@@ -63,24 +61,24 @@
       align-items: start;
       margin-left: 32px;
       letter-spacing: 0.05em;
-
+  
       .product-name {
         font-size: 20px;
         margin-bottom: 25px;
       }
-
+  
       .product-price {
         font-size: 20px;
         font-weight: 900;
         margin-bottom: 21px;
       }
-
+  
       .product-datails {
         font-size: 10px;
         color: var(--black-color);
         margin-bottom: 30px;
       }
-
+  
       .more-dateils {
         font-size: 12px;
         display: flex;
@@ -88,12 +86,12 @@
         margin-bottom: 19px;
         height: 12px;
         cursor: pointer;
-
+  
         span {
           &:nth-child(1) {
             border-bottom: 1px solid var(--main-color);
           }
-
+  
           .arrow-for-ward{
             width: 11px;
             height: 11px;
@@ -101,5 +99,5 @@
         }
       }
     }
-  }
+  }  
 }

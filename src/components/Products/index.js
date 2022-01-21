@@ -15,15 +15,15 @@ const Products = () => {
   };
 
   return (
-    <section className="products">
+    <div className="products">
       {products.map((product, i) => (
-        <article className="featured-product">
+        <div className="featured-product">
           <ProductsCard key={i} product={product} handleClick={handleClick} />
-        </article>
+        </div>
       ))}
       <button type="button">VER MAIS</button>
       {modal && <Modal item={item} setModal={setModal} />}
-    </section>
+    </div>
   );
 };
 

@@ -18,6 +18,7 @@
   button {
     &:nth-child(13n) {
       background-color: white;
+      color: var(--main-color);
       text-align: center;
       padding: 20px;
       border: 1px solid var(--main-color);

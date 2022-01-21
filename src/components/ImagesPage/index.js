@@ -5,11 +5,11 @@ import './ImagesPage.scss';
 
 const ImagesPage = () => {
   return (
-    <article className="products-images">
+    <section className="products-images">
       <img src={NewProducts} alt="New products illustration" />
       <img src={Instruments} alt="Instrumewnts illustration" />
       <img src={News} alt="New products" />
-    </article>
+    </section>
   );
 };
 

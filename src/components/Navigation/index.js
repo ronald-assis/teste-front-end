@@ -3,7 +3,7 @@ import './Navigation.scss';
 
 const Navigation = () => {
   return (
-    <section className="navigation">
+    <nav className="navigation">
       <div>
         <h3>TODAS AS CATEGORIAS</h3>
         <IoMdArrowDropdown />
@@ -25,7 +25,7 @@ const Navigation = () => {
       <div className="contact">
         <h3>CONTATO</h3>
       </div>
-    </section>
+    </nav>
   );
 };
 
