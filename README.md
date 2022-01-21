@@ -6,7 +6,6 @@ Segue abaixo as informações do teste.
 
 ## Instruções
 - Click neste [Link](https://ronald-assis.github.io/teste-front-end) para poder ver a pagina operando.
-- Este [Link](https://github.com/ronald-assis/teste-front-end) é o repositoryio do projeto.
 
 ## Especificações Técnicas
 Essa é uma pequena ilustraçãoa de como esta o projeto:
