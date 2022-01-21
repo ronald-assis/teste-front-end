@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/teste-front-end/static/css/main.99202322.css",
+    "main.js": "/teste-front-end/static/js/main.491f0326.js",
+    "static/media/NewProducts.png": "/teste-front-end/static/media/NewProducts.14b467b865b97b31232d.png",
+    "static/media/news.png": "/teste-front-end/static/media/news.706a28232cd5e85f452a.png",
+    "static/media/instruments.png": "/teste-front-end/static/media/instruments.950de7c4b2d31f392bd6.png",
+    "static/media/comment.png": "/teste-front-end/static/media/comment.b902951e5039db09b038.png",
+    "index.html": "/teste-front-end/index.html",
+    "main.99202322.css.map": "/teste-front-end/static/css/main.99202322.css.map",
+    "main.491f0326.js.map": "/teste-front-end/static/js/main.491f0326.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99202322.css",
+    "static/js/main.491f0326.js"
+  ]
+}
