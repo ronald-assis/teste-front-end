@@ -9,7 +9,7 @@ const LogoAndUser = () => {
       <div className="logo">
         <img src={logo} alt="Ninja Som logo" />
       </div>
-      <label className="search-input">
+      <label className="search-input" id="search">
         <input
           type="text"
           name="search"
