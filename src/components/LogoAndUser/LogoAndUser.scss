@@ -6,26 +6,26 @@
   height: 77px;
   border: 1px solid rgba(120, 117, 117, 0.22);
 
-  h1 {
+  .global-icons {
+    width: 18px;
+    height: 18px;
+    margin-right: 9px;
+  }
+
+  .logo {
     margin-right: 41px;
   }
 
   .search-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border: 1px solid #707070;
     border-radius: 4px;
     width: 339px;
     height: 41px;
-    justify-content: space-between;
-  }
-
-  div {
     margin-right: 41px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 10px;
-    
+
     input {
       border: none;
       text-align: start;
@@ -36,13 +36,16 @@
       box-shadow: 0 0 0 0;
       outline: 0;
     }
+  }
 
-    .global-icons {
-      width: 18px;
-      height: 18px;
-      margin-right: 9px;
-    }
-
+  div {
+    margin-right: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 10px;
+  
     .name-user{
       flex-flow: column;
       

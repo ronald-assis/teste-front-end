@@ -1,12 +1,15 @@
 import { FaRegUser } from 'react-icons/fa';
 import { BsWhatsapp, BsSearch } from 'react-icons/bs';
+import logo from '../images/logo.png';
 import './LogoAndUser.scss';
 
 const LogoAndUser = () => {
   return (
     <section className="logo-and-user">
-      <h1>NINJA SOM</h1>
-      <div className="search-input">
+      <div className="logo">
+        <img src={logo} alt="Ninja Som logo" />
+      </div>
+      <label className="search-input">
         <input
           type="text"
           name="search"
@@ -14,7 +17,7 @@ const LogoAndUser = () => {
           placeholder="BUSQUE AQUI..."
         />
         <BsSearch />
-      </div>
+      </label>
 
       <div className="whatsapp">
         <BsWhatsapp />
