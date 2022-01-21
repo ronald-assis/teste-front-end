@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import './ProductsCard.scss';
 
 const ProductsCard = ({ product, handleClick }) => {
@@ -16,5 +17,12 @@ const ProductsCard = ({ product, handleClick }) => {
     </button>
   );
 };
+
+ProductsCard.propTypes = {
+  photo: PropTypes.string,
+  productName: PropTypes.string,
+  price: PropTypes.number,
+  descriptionShort: PropTypes.string,
+}.isRequired;
 
 export default ProductsCard;

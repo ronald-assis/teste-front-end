@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { IoIosClose, IoIosArrowForward } from 'react-icons/io';
 import './Modal.scss';
 
@@ -31,5 +32,12 @@ const Modal = ({ item, setModal }) => {
     </section>
   );
 };
+
+Modal.propTypes = {
+  photo: PropTypes.string,
+  productName: PropTypes.string,
+  price: PropTypes.number,
+  descriptionShort: PropTypes.string,
+}.isRequired;
 
 export default Modal;
