@@ -14,7 +14,6 @@ const Products = () => {
     const { products } = data();
     products.splice(8, 4);
     setItens(products);
-    console.log(products);
   }, []);
 
   const handleClick = (product) => {

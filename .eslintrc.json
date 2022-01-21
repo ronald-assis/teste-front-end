@@ -1,20 +1,9 @@
 {
   "env": {
-    "es6": true,
-    "node": true,
-    "jest": true
+    "browser": true,
+    "es2021": true
   },
-  "extends": [
-    "plugin:react/recommended",
-    "airbnb-base",
-    "prettier",
-    "plugin:prettier/recommended"
-  ],
-  "globals": {
-    "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
-  },
-  "parser": "@typescript-eslint/parser",
+  "extends": ["eslint:recommended", "prettier", "plugin:react/recommended"],
   "parserOptions": {
     "ecmaVersion": 11,
     "sourceType": "module"
@@ -29,7 +18,8 @@
     "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "react/jsx-filename-extension": [ 1, {"extensions": [".tsx"]} ],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "plugin:react/jsx-runtime": "extends",
     "import/prefer-default-export": "off",
     "@typescript-eslint/explicit-function-return-type": [
       "error",
@@ -45,10 +35,5 @@
         "tsx": "never"
       }
     ]
-  },
-  "settings": {
-    "import/resolver": {
-      "typescript": {}
-    }
   }
 }
