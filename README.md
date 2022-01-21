@@ -5,7 +5,7 @@
 Segue abaixo as informações do teste.
 
 ## Instruções
-- Click neste [Link](http://econverse.digital/teste-front-end/junior/ninja-som/layout/TESTE-PRATICO-NINJA-SOM.xd) para poder ver a pagina operando.
+- Click neste [Link](https://ronald-assis.github.io/teste-front-end) para poder ver a pagina operando.
 - Este [Link](https://github.com/ronald-assis/teste-front-end) é o repositoryio do projeto.
 
 ## Especificações Técnicas
