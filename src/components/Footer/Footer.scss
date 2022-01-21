@@ -1,0 +1,101 @@
+footer {
+  margin-top: 245px;
+  background-color: var(--main-color);
+
+  h1 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .comments {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 175px;
+    margin: auto;
+    background: #F7F7F7;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    transform: translateY(-80%);
+
+    .global-icons {
+      color: #707070;
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .information {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto 50px;
+
+    .info {
+      margin-right: 53px;
+    }
+    .who-we-are {
+      margin-bottom: 27px;
+    }
+
+    .form {
+      background-color: white;
+      border-radius: 6px;
+      color: var(--main-color);
+      width: 276px;
+      height: 249px;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      flex-flow: column;
+
+      p{
+        width: 218px;
+        height: 50px;
+        font-size: 14px;
+        margin:0 0 20px 30px;
+        span {
+          font-weight: bold;
+        }
+      }
+
+      label {
+        margin-bottom: 19px;
+        border-bottom: 0.6px solid var(--main-color);
+        margin:0 0 20px 30px;
+
+        input {
+          border: none;
+          text-align: start;
+          margin-bottom: 11px;
+        }    
+        input:focus {
+          box-shadow: 0 0 0 0;
+          outline: 0;
+        }
+      }
+
+      button {
+        border: 1px solid var(--main-color);
+        border-radius: 5px;
+        color: var(--main-color);
+        font-size: 12px;
+        margin:0 0 0 30px;
+        width: 111px;
+        height: 35px;
+      }
+
+    }
+  }
+
+  .company-cnpj {
+    background-color: white;
+  }
+}
