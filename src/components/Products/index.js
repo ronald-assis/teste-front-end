@@ -1,18 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import data from '../../data';
+import Modal from '../Modal';
 import ProductsCard from '../ProdutsCard';
 import './Products.scss';
 
 const Products = () => {
+  const [modal, setModal] = useState(false);
+  const [item, setItem] = useState({});
   const { products } = data;
 
+  const handleClick = (product) => {
+    setModal(true);
+    setItem(product);
+  };
+
   return (
-    <div className="products">
+    <section className="products">
       {products.map((product, i) => (
-        <ProductsCard key={i} product={product} />
+        <article className="featured-product">
+          <ProductsCard key={i} product={product} handleClick={handleClick} />
+        </article>
       ))}
       <button type="button">VER MAIS</button>
-    </div>
+      {modal && <Modal item={item} setModal={setModal} />}
+    </section>
   );
 };
 
